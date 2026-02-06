@@ -1,3 +1,6 @@
 stages:
   dataset:
-    cmd: \ -d dataset.py \ -d dataset.csv \python dataset.py
+    cmd: python dataset.py
+    deps:
+    - dataset.csv
+    - dataset.py
