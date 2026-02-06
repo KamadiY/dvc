@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  dataset:
+    cmd: python dataset.py
+    deps:
+    - path: dataset.csv
+      hash: md5
+      md5: 283159b470ce6db0b9177990fffab04f
+      size: 73
+    - path: dataset.py
+      hash: md5
+      md5: 97d584095c841960a669d4f67411da26
+      size: 267
